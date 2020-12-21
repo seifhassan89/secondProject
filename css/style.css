@@ -1,0 +1,359 @@
+body{
+    margin: 0;
+    padding: 0
+}
+.clear {clear: both}
+
+/* start navbar*/
+.navbar{
+    background-color: #360836;
+    width: 100%;
+    height: 50px
+}
+
+.navbar ul{
+    list-style: none;
+    text-align: center;
+    line-height: 50px
+}
+.navbar ul li{
+    display: inline-block;
+}
+.navbar ul li a{
+    color:#ff0048;
+    text-decoration: none; 
+    margin-left: 15px
+    
+}
+.navbar ul li a.active{
+    color:#FFF
+}
+
+/* start back gtound*/
+
+.web{
+    width: 100%;
+    height: 600px;
+    background-image: url(../Images/cover.png);
+    background-size: cover;
+    text-align: center;
+    position: relative
+}
+
+.web .folk h2{
+    color:#FFF;
+    margin-top: 0;
+    padding-top: 50px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.web .folk p {
+    letter-spacing: 10px;
+    color: #FFF;
+    font-size: 25px;
+}
+
+.web .dream {
+    padding-top: 70px;
+    font-size: 20px;
+    color: #FFF
+}
+
+.web .work {
+    position: absolute;
+    color: #FFF;
+    bottom: 0;
+    left:45%;
+    background-color: #ff0048;
+    width: 100px;
+    height: 20px;
+    padding: 10px 30px 10px 30px;
+}
+
+.web .work:after {
+    content: "";
+    border-top: 20px solid #ff0048;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: relative;
+    top: 50px;
+    left: -66px;
+}
+/*end back bround*/
+
+/* start pics*/
+
+.image {
+    width: 100%;
+}
+.image .img {
+    width: 25%;
+    height: 252px;
+    background-image: url(../Images/image_1.jpg);
+    float: left
+}
+.image .img .over {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0
+}
+.image .img:hover .over{
+    opacity: 1
+    
+}
+.image .img01{background-image: url(../Images/image_2.jpg)}
+.image .img02{background-image: url(../Images/image_3.jpg)}
+.image .img03{background-image: url(../Images/image_4.jpg)}
+.image .img04{background-image: url(../Images/image_5.jpg)}
+.image .img05{background-image: url(../Images/image_6.jpg)}
+.image .img06{background-image: url(../Images/image_7.jpg)}
+.image .img07{background-image: url(../Images/image_8.jpg)}
+.image .img08{background-image: url(../Images/image_9.jpg)}
+.image .img09{background-image: url(../Images/image_10.jpg)}
+.image .img10{background-image: url(../Images/image_11.jpg)}
+.image .img11{background-image: url(../Images/image_12.jpg)}
+
+/*end pic */ 
+
+/* start meet*/
+
+.meet {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+}
+.meet .header{
+    background-color: #ff0048;
+    color: #FFF;
+    width: 100%;
+    height: 30px
+}
+.meet .header p {
+    padding: 5px;
+    margin: 0px;
+}
+.meet .pic h3{
+    letter-spacing: 2px;
+    font-size: 24px;
+    color:#ff0088;
+    text-decoration: underline;
+}
+.meet .img{
+    display: inline-block;
+    margin: 50px 100px
+}
+.meet .img h2{
+    color: #ff0055;
+    letter-spacing: 5px;
+    margin-bottom: 0px
+}
+.meet .img p {
+    color: #555;
+    margin-top: 5px;
+
+}
+.meet button {
+    background-color: black;
+    color:#FFF;
+    padding: 10px 40px;
+    margin: 10px 20px;
+    cursor: pointer
+}
+
+/* the last*/
+
+.background {
+    background-image: url(../Images/Cover_2.jpg);
+    height:auto;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    padding-top: 7%
+}
+.background .p1 {width: 400px;
+display: inline-block}
+.background .p1 h2 {
+    color:#FFF;
+    font-size: bold;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0
+}
+
+.background .p1 p {
+    color: #FFF;
+    padding: 22px}
+.background button {
+    background-color: black;
+    color:#FFF;
+    padding: 10px 100px;
+    margin: 200px ;
+    cursor: pointer
+}
+/**** pollits*/
+.background .poll{
+    text-align: center;}
+
+.background .poll span {
+     width: 10px;
+    height: 10px;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 50%   
+}
+.background .poll span:hover {
+    background-color: #ff0048
+}
+/* footer*/
+.foot{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    font-size: 25px;
+    background-color: #f5f5f5;
+     text-align: center
+}
+
+/**************************************************************** start the second page*/
+
+
+ /*start contact*/
+.contact{
+    width: 100%;
+    height: 650px;
+    background-image: url(../Images/coverPage2.PNG);
+    background-size: cover;
+    text-align: center;
+    
+}
+.contact h2 {
+    margin: 0;
+    padding: 0;
+    line-height: 80px;
+    font-style: italic;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #777
+}
+.contact p{
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    color: #999
+}
+.contact .form {
+    margin: auto;
+    font-size: 25px; 
+    width: 500px;
+    height: 400px;
+}
+.contact .form h4{
+    padding-top: 40px;
+    color:#E74C3C;
+    font-family: serif;
+}
+.contact .form .a7a input[type=text],textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 0;
+    height: 35px;
+    background: antiquewhite;
+    color: #FFF;
+    padding-left: 10px;
+}
+textarea {
+    height: 200px
+}
+.contact .form .a7a input[type=submit] {
+    float: right;
+    border: 0;
+    background: #FFF;
+    padding: 10px;
+    cursor: pointer
+}
+
+/* start last part */
+
+.last {
+    text-align: center;
+    background: #FFF;
+    width: 100%;
+    height: 300px;
+}
+.last .part1 h2{
+    color: #ff0048;
+    font-size: 25px;
+    font-family: inherit
+    }
+.last .part1 p {
+    color: #666;
+    padding-left: 200px;
+    padding-right: 200px
+}
+.last .part1 img {
+    padding-top: 30px
+}
+/* start footer*/
+.footer {
+    padding-top: 30px;
+    text-align: center;
+    width: 100% ;
+    height: 100px;
+    background-color: #999;
+    color: #444;
+}
+.footer span {
+    color:#ff0048;
+    font-size: 15px
+}
+/********************************************** start theird page */
+
+/* start all*/
+
+.all {
+    text-align: center;
+    width: 100%;
+    height: 800px;
+    background-image: url(../Images/coverPage2.PNG);
+    background-size: cover;
+}
+.all h1{
+    color: black;
+    font-family: monospace;
+    font-style: italic;
+    padding: 40px;
+    margin: 0px
+}
+.all .whitespace {
+    background-color: white;
+    margin-left: 190px;
+    width: 70%;
+    height: 550px;
+    overflow: hidden
+}
+.all .whitespace img {
+    margin: 32px;
+    float: left;
+    padding: 60px;
+    padding-left: 10px
+}
+.all .whitespace p{
+    font-size: 25px;
+    font-family: sans-serif;
+    color:#555;
+    padding: 85px;
+    width: 90%;
+    line-height: 40px
+}
+.all .whitespace button {
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: #FFF;
+    text-transform: capitalize;
+    
+}
